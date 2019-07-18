@@ -1,0 +1,59 @@
+/* ==UserStyle==
+@name          Reddit Night Mode Supplement
+@version       0.0.5b
+@namespace     github.com/derek-shnosh/reddit-night-mode-supplement
+@description   Cleans up inline code and code blocks when using Reddits (new) Night Mode.
+@author        derek-shnosh
+@license       MIT
+@homepageURL   https://github.com/derek-shnosh/reddit-night-mode-supplement
+@supportURL    https://github.com/derek-shnosh/reddit-night-mode-supplement/issues
+@updateURL     https://raw.githubusercontent.com/derek-shnosh/reddit-night-mode-supplement/master/reddit-night-mode-supplement.user.styl
+@preprocessor  stylus
+
+==/UserStyle== */
+@-moz-document domain("reddit.com") {
+	/* code
+	- font-family prefers `Fira Code` font.
+	- color changed light-blue shade.
+	- background is dark.
+	- padding and border-radius set at 2px.
+	*/
+	.jYpcYF, .ihczTq, .kYgbJw, ._34q3PgLsx9zIU5BiSOjFoM {
+		font-family: Fira Code, Noto Mono, Menlo, Monaco, Consolas;
+		color: rgb(160, 180, 200) !important;
+		background: rgba(0, 0, 0, 0.8) none repeat scroll 0% 0%;
+		padding: 2px;
+		border-radius: 3px;
+		border: 1px solid rgb(40, 50, 65);
+	}
+
+	/* pre
+	- background is dark.
+	- border-radius set at 5px.
+	*/
+	.gQdxUE, .hmYgbK, .eqBMbp, ._3GnarIQX9tD_qsgXkfSDz1 {
+		background: rgba(0, 0, 0, 0.8) none repeat scroll 0% 0%;
+		border-radius: 5px;
+	}
+
+	/* pre code
+	- remove border from code in pre.
+	*/
+	.gQdxUE > .jYpcYF, .hmYgbK > .ihczTq, .eqBMbp > .kYgbJw, ._3GnarIQX9tD_qsgXkfSDz1 > ._34q3PgLsx9zIU5BiSOjFoM {
+		border: none;
+	}
+
+	/* table border
+	- border is removed from table, 
+	*/
+	.dGjtNgm, .gOzMMP, .fOZCdq, .MRH-njmSb5ZTkfb1o4dqv {
+		border: none;
+	}
+
+	/* "commented on" text
+	- color is changed to match normal text.
+	*/
+	.dVifWl, ._2ng_YqEhC3QLYqZyRIQ9qB {
+		color: rgb(215, 218, 220);
+	}
+}
