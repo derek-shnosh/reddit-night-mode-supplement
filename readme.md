@@ -10,4 +10,4 @@ User style to clean up inline code and code blocks when using Reddits (new) Nigh
 
 
 [ss]: assets/screenshot.png
-[install]: https://raw.githubusercontent.com/derek-shnosh/reddit-night-mode-supplement/master/reddit-night-mode-supplement.user.styl
+[install]: https://github.com/derek-shnosh/reddit-night-mode-supplement/raw/master/reddit-night-mode-supplement.user.styl
