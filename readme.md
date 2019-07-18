@@ -2,7 +2,10 @@
 
 User style to clean up inline code and code blocks when using Reddits (new) Night Mode.
 
-**[Install using Stylus][install]**
+<center>
+
+[![install-with-stylus][install-img]][install]
+</center>
 
 ![screenshot][ss]
 
@@ -10,4 +13,5 @@ User style to clean up inline code and code blocks when using Reddits (new) Nigh
 
 
 [ss]: assets/screenshot.png
+[install-img]: assets/install-stylus.png
 [install]: https://github.com/derek-shnosh/reddit-night-mode-supplement/raw/master/reddit-night-mode-supplement.user.styl
