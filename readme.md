@@ -2,10 +2,7 @@
 
 User style to clean up inline code and code blocks when using Reddits (new) Night Mode.
 
-<center>
-
 [![install-with-stylus][install-img]][install]
-</center>
 
 ![screenshot][ss]
 
