@@ -1,3 +1,6 @@
+v.0.0.6
+- Message browser background-color change for selected message.
+
 v.0.0.5b
 - Updated for reddit changing names of code classes.
 
