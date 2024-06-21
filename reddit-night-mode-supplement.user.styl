@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name          Reddit Night Mode Supplement
-@version       0.0.6
+@version       0.0.7
 @namespace     github.com/derek-shnosh/reddit-night-mode-supplement
 @description   Cleans up inline code and code blocks when using Reddits (new) Night Mode.
 @author        derek-shnosh
@@ -18,7 +18,7 @@
 	- background is dark.
 	- padding and border-radius set at 2px.
 	*/
-	.jYpcYF, .ihczTq, .kYgbJw, ._34q3PgLsx9zIU5BiSOjFoM {
+	code {
 		font-family: Fira Code, Noto Mono, Menlo, Monaco, Consolas;
 		color: rgb(160, 180, 200) !important;
 		background: rgba(0, 0, 0, 0.8) none repeat scroll 0% 0%;
@@ -31,36 +31,8 @@
 	- background is dark.
 	- border-radius set at 5px.
 	*/
-	.gQdxUE, .hmYgbK, .eqBMbp, ._3GnarIQX9tD_qsgXkfSDz1 {
+	pre  {
 		background: rgba(0, 0, 0, 0.8) none repeat scroll 0% 0%;
 		border-radius: 5px;
 	}
-
-	/* pre code
-	- remove border from code in pre.
-	*/
-	.gQdxUE > .jYpcYF, .hmYgbK > .ihczTq, .eqBMbp > .kYgbJw, ._3GnarIQX9tD_qsgXkfSDz1 > ._34q3PgLsx9zIU5BiSOjFoM {
-		border: none;
-	}
-
-	/* table border
-	- border is removed from table, 
-	*/
-	.dGjtNgm, .gOzMMP, .fOZCdq, .MRH-njmSb5ZTkfb1o4dqv {
-		border: none;
-	}
-
-	/* "commented on" text
-	- color is changed to match normal text.
-	*/
-	.dVifWl, ._2ng_YqEhC3QLYqZyRIQ9qB {
-		color: rgb(215, 218, 220);
-	}
-    
-    /* selected message background color
-	- background color is changed to darker shade.
-	*/
-    .entry.res-selected, .entry.res-selected .md-container {
-    	background-color: #48484B !important;
-    }
 }

@@ -1,3 +1,6 @@
+v.0.0.7
+- Removed/corrected CSS tags and display preferences based on new Reddit styles.
+
 v.0.0.6
 - Message browser background-color change for selected message.
 
